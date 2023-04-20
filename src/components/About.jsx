@@ -14,14 +14,14 @@ const About = () => {
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I'm Sai Kumar, nice to meet you. Please take a look around.</p>
+              <p>Bonjour, je suis ROMANET Rayan, ravi de vous rencontrer. Jetez un coup d'œil autour de vous.</p>
             </div>
             <div>
-              <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?</p>  
+              <p>Je suis un développeur Full Stack passionné par la création de logiciels de qualité. 
+                Avec plusieurs années d'expérience dans le développement web, je suis capable de travailler 
+                sur l'ensemble du processus de développement, depuis la conception jusqu'à la mise en production. 
+                Ma plus grande satisfaction en tant que développeur est de créer des solutions efficaces qui répondent aux besoins 
+                de mes clients. Si vous cherchez un développeur Full Stack passionné et compétent pour votre prochain projet, n'hésitez pas à me contacter.</p>  
             </div>
           </div>
       </div>
