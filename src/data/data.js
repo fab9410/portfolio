@@ -2,6 +2,8 @@ import WorkIm from '../assets/project/workImg.jpeg'
 import Hub from '../assets/project/lehub.png'
 import Snake from '../assets/project/snake.png'
 import Bomberman from '../assets/project/bomberman.png'
+import Spa from '../assets/project/LOTUS.png'
+import Mayak from '../assets/project/MAYAK.png'
 
 export const data=[
     {
@@ -25,7 +27,21 @@ export const data=[
     },
     {
         id:4,
-        name:"React JS Application",
+        name:"LOTUS THAI SPA",
+        image:Spa,
+        github:"",
+        live:"https://rayanromanet.wixsite.com/sitelotus",
+    },
+    {
+        id:5,
+        name:"MAYAK SERVICES",
+        image:Mayak,
+        github:"*",
+        live:"https://mayak-services.fr/",
+    },
+    {
+        id:6,
+        name:"Conservatoire de musique",
         image:WorkIm,
         github:"",
         live:"",

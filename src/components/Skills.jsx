@@ -10,7 +10,8 @@ import Tailwind from '../assets/tailwind.png';
 import Csharp from '../assets/csharp.png';
 import Cplus from '../assets/cplus.png';
 import C from '../assets/c.png';
-import Wix from '../assets/wix.png'
+import Wix from '../assets/wix.png';
+import Php from '../assets/php.png'
 
 
 
@@ -20,8 +21,8 @@ const Skills = () => {
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
-              <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
-              <p className='py-4'> These are the technologies I've worked with</p>
+              <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Compétences</p>
+              <p className='py-4'> Ce sont les technologies avec lesquelles j'ai travaillé :</p>
           </div>
 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
@@ -68,6 +69,10 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Wix} alt="HTML icon" />
                   <p className='my-4'>WIX</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Php} alt="HTML icon" />
+                  <p className='my-4'>PHP</p>
               </div>
           </div>
       </div>

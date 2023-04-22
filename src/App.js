@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar.jsx";
 import Skills from "./components/Skills.jsx";
 import Work from "./components/Work.jsx";
 
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 
 
 function App() {
@@ -19,11 +19,13 @@ function App() {
       <div>
 
         <Navbar />
+
         <Home />
         <About />
         <Skills />
         <Work />
         <Contact />
+
       </div>
     </>
   );
