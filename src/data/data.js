@@ -1,9 +1,10 @@
-import WorkIm from '../assets/project/workImg.jpeg'
+//import WorkIm from '../assets/project/workImg.jpeg'
 import Hub from '../assets/project/lehub.png'
 import Snake from '../assets/project/snake.png'
 import Bomberman from '../assets/project/bomberman.png'
 import Spa from '../assets/project/LOTUS.png'
 import Mayak from '../assets/project/MAYAK.png'
+import Conservatoire from '../assets/project/conservatoire.png'
 
 export const data=[
     {
@@ -42,7 +43,7 @@ export const data=[
     {
         id:6,
         name:"Conservatoire de musique",
-        image:WorkIm,
+        image:Conservatoire,
         github:"",
         live:"",
     },

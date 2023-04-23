@@ -10,9 +10,12 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/initialeRR-removebg-preview.png';
 import { Link } from 'react-scroll';
 
+
 const Navbar = () => {
+
   const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
+  const handleClick = () => setNav(!nav); 
+
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
@@ -23,27 +26,32 @@ const Navbar = () => {
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
-          <Link to='home' smooth={true} duration={500}>
+          <Link className="hover:bg-pink-500  text-white max-w-[160px] group border-1 font-bold py-3 px-6 rounded flex items-center space-x-2 transition duration-300 ease-in-out transform hover:-translate-y-1 text-base" to='home' smooth={true} duration={500}>
             Accueil
           </Link>
         </li>
         <li>
-          <Link to='about' smooth={true} duration={500}>
+          <Link className="hover:bg-pink-500  text-white max-w-[160px] group border-1 font-bold py-3 px-6 rounded flex items-center space-x-2 transition duration-300 ease-in-out transform hover:-translate-y-1 text-base" to='about' smooth={true} duration={500}>
             À propos
           </Link>
         </li>
         <li>
-          <Link to='skills' smooth={true} duration={500}>
+          <Link className="hover:bg-pink-500  text-white max-w-[160px] group border-1 font-bold py-3 px-6 rounded flex items-center space-x-2 transition duration-300 ease-in-out transform hover:-translate-y-1 text-base" to='skills' smooth={true} duration={500}>
             Compétences
           </Link>
         </li>
         <li>
-          <Link to='work' smooth={true} duration={500}>
-            Projet
+          <Link className="hover:bg-pink-500  text-white max-w-[160px] group border-1 font-bold py-3 px-6 rounded flex items-center space-x-2 transition duration-300 ease-in-out transform hover:-translate-y-1 text-base" to='work' smooth={true} duration={500}>
+            Projets
           </Link>
         </li>
         <li>
-          <Link to='contact' smooth={true} duration={500}>
+          <Link className="hover:bg-pink-500  text-grey max-w-[160px] group border-1 font-bold py-3 px-6 rounded flex items-center space-x-2 transition duration-300 ease-in-out transform hover:-translate-y-1 text-base" to='veille' smooth={true} duration={500}>
+            Veille
+          </Link>
+        </li>
+        <li>
+          <Link className="hover:bg-pink-500  text-white max-w-[160px] group border-1 font-bold py-3 px-6 rounded flex items-center space-x-2 transition duration-300 ease-in-out transform hover:-translate-y-1 text-base" to='contact' smooth={true} duration={500}>
             Contact
           </Link>
         </li>
@@ -63,31 +71,36 @@ const Navbar = () => {
         }
       >
         <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+          <Link className="hover:bg-pink-500  text-white max-w-[160px] group border-1 font-bold py-3 px-6 rounded flex items-center space-x-2 transition duration-300 ease-in-out transform hover:-translate-y-1 text-base" onClick={handleClick} to='home' smooth={true} duration={500}>
             Acceuil
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+          <Link className="hover:bg-pink-500  text-white max-w-[160px] group border-1 font-bold py-3 px-6 rounded flex items-center space-x-2 transition duration-300 ease-in-out transform hover:-translate-y-1 text-base" onClick={handleClick} to='about' smooth={true} duration={500}>
             À propos
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+          <Link className="hover:bg-pink-500  text-white max-w-[160px] group border-1 font-bold py-3 px-6 rounded flex items-center space-x-2 transition duration-300 ease-in-out transform hover:-translate-y-1 text-base" onClick={handleClick} to='skills' smooth={true} duration={500}>
             Compétences
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Projet
+          <Link className="hover:bg-pink-500  text-white max-w-[160px] group border-1 font-bold py-3 px-6 rounded flex items-center space-x-2 transition duration-300 ease-in-out transform hover:-translate-y-1 text-base" onClick={handleClick} to='work' smooth={true} duration={500}>
+            Projets
+          </Link>
+        </li>
+        <li>
+          <Link className="hover:bg-pink-500  text-grey max-w-[160px] group border-1 font-bold py-3 px-6 rounded flex items-center space-x-2 transition duration-300 ease-in-out transform hover:-translate-y-1 text-base" to='veille' smooth={true} duration={500}>
+            Veille
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+          <Link className="hover:bg-pink-500  text-white max-w-[160px] group border-1 font-bold py-3 px-6 rounded flex items-center space-x-2 transition duration-300 ease-in-out transform hover:-translate-y-1 text-base" onClick={handleClick} to='contact' smooth={true} duration={500}>
             Contact
           </Link>
         </li>
