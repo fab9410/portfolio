@@ -4,9 +4,9 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
+  FaDiscord,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/initialeRR-removebg-preview.png';
 import { Link } from 'react-scroll';
 
@@ -14,7 +14,7 @@ import { Link } from 'react-scroll';
 const Navbar = () => {
 
   const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav); 
+  const handleClick = () => setNav(!nav);
 
 
   return (
@@ -136,9 +136,11 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://discord.com/users/Faby#9629'
+              target='_blank'
+              rel='noopener noreferrer'
             >
-              Resume <BsFillPersonLinesFill size={30} />
+              Discord <FaDiscord size={30} />
             </a>
           </li>
         </ul>
