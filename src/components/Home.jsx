@@ -38,7 +38,7 @@ const Home = () => {
 
           <div>
             <span className='group-hover:rotate-90 duration-300'>
-              <Button label="Télécharger le CV" downloadLink="C:\Users\rayan\OneDrive\Documents\Rayan\CV\CV Rayan ROMANET.pdf" />
+              <Button label="Télécharger le CV" downloadLink={process.env.PUBLIC_URL + `/PDF/CV_Rayan_ROMANET.pdf`} />
             </span>
           </div>
         </div>
