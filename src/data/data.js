@@ -25,6 +25,8 @@ export const data=[
         name:"Bomberman",
         image:Bomberman,
         github:"https://github.com/BuuurnZ/BomberMan",
+        live:"https://www.youtube.com/watch?v=7CGr5B1Hpw8&ab_channel=BuuurnZ",
+
     },
     {
         id:4,

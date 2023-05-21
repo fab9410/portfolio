@@ -6,7 +6,7 @@ const Button = ({ label }) => {
 
   return (    
 
-      <a href={moncv} download="CV_Rayan_ROMANET.pdf" className='text-white font-bold max-w-[250px] group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600' >
+      <a href={moncv} download="CV_Rayan_ROMANET.pdf" className='text-white font-bold max-w-[215px] group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600' >
       <FaDownload style={{ marginRight: '7px' }} />
       {label}
       </a>
