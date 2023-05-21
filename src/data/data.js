@@ -32,22 +32,20 @@ export const data=[
         id:4,
         name:"LOTUS THAI SPA",
         image:Spa,
-        github:"",
         live:"https://rayanromanet.wixsite.com/sitelotus",
     },
     {
         id:5,
         name:"MAYAK SERVICES",
         image:Mayak,
-        github:"*",
         live:"https://mayak-services.fr/",
     },
     {
         id:6,
         name:"Conservatoire de musique",
         image:Conservatoire,
-        github:"",
-        live:"",
+        github:"https://drive.google.com/drive/folders/1c3fBAI9fgd0j4aWZC3ot4nEne_AfFz1G?hl=fr",
+        live:"https://drive.google.com/drive/folders/1c3fBAI9fgd0j4aWZC3ot4nEne_AfFz1G?hl=fr",
     },
 
 
