@@ -25,8 +25,8 @@ const Home = () => {
         <p className='text-[#f8f9fb] py-4 max-w-[900px]' style={{ fontSize: '24px' }}>
           Passionné par le développement informatique.<br></br>
           À travers mon portfolio, je mets en avant mes compétences en langages de programmation ainsi que ma créativité
-          pour résoudre des problèmes complexes. Avec une approche méthodique et un fort désir d'innovation,
-          je suis prêt à relever les défis du monde numérique et à contribuer au développement technologique.
+          pour résoudre des problèmes complexes. Avec une approche méthodique et un fort désir d'innovation.
+          Je suis prêt à relever les défis du monde numérique et à contribuer au développement technologique.
         </p>
         <div>
           <Link className="hover:bg-pink-500 bg-pink-600 text-white max-w-[125px] group border-1 font-bold py-3 px-6 rounded flex items-center space-x-2 transition duration-300 ease-in-out transform hover:-translate-y-1 text-base"
